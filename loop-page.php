@@ -2,9 +2,15 @@
 <?php while (have_posts()) : the_post(); ?>
   <?php roots_post_before(); ?>
     <?php roots_post_inside_before(); ?>
-      <div class="page-header">
-      	<h1><?php the_title(); ?></h1>
+      <?php if ( is_front_page() ) { ?>
+      <div class="page-header" style="display: none;">
+	<h1><?php the_title(); ?></h1>
       </div>
+<?php } else { ?>
+      <div class="page-header">
+	<h1><?php the_title(); ?></h1>
+      </div>
+<?php } ?>
       <?php the_content(); ?>
       <?php wp_link_pages(array('before' => '<nav class="pagination">', 'after' => '</nav>')); ?>
     <?php roots_post_inside_after(); ?>

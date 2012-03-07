@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Custom
+Template Name: nbeecroft-front-page
 */
 get_header(); ?>
   <?php roots_content_before(); ?>
