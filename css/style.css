@@ -74,15 +74,32 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+	/* General */
 
-
-
-
-
-
-
-
-
+.align-center{
+text-align:center;
+}
+.align-right{
+text-align:right;
+}
+	/* Front Page*/
+.banner-text{
+color:#30A7E3;
+text-align:center;
+margin:20px 0 38px 0;
+}
+#business{
+text-align:center;
+}
+#pleasure{
+text-align:center;
+}
+#category-list-business li{
+display:inline;
+}
+#category-list-pleasure li{
+display:inline;
+}
 
 
 
