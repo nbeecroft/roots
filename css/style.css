@@ -94,10 +94,18 @@ text-align:center;
 #pleasure{
 text-align:center;
 }
+#category-list-business{
+/*display:inline;*/
+}
+#category-list-pleasure{
+/*display:inline;*/
+}
 #category-list-business li{
+text-align:center;
 display:inline;
 }
 #category-list-pleasure li{
+text-align:center;
 display:inline;
 }
 
