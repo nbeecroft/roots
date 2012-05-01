@@ -75,7 +75,46 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 	/* General */
+/*Need to make background image to footer and then body/wrapper/container into a gradient. Will be the only way to do this properly*/
 
+	/*Footer*/
+html, body {
+           /* height: 100%;*/
+        }
+#footer-bg {
+		/*Get image + set basic position*/		
+		background:url(/img/footer.jpg) bottom center no-repeat;
+		background-size:cover;
+		width: 100%;
+	}
+footer {
+min-height:279px;
+width:100%
+}		
+/*footer.container {
+        background-image:url(/img/footer.jpg);
+	min-height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	background-size: contain;
+	}*/
+footer#content-info.container{
+margin-bottom:0px;
+padding:0px;
+}
+#content{
+min-height:400px;
+}
+#wrap {
+       	bottom:0px;
+        height: auto !important;
+        height: 100%;
+        /*margin: 0 auto -63px;*/
+        }
+.push {
+            height: 63px;
+        }
 .align-center{
 text-align:center;
 }

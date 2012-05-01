@@ -3,7 +3,6 @@
     <div id="content" class="<?php echo CONTAINER_CLASSES; ?>">
     <?php roots_main_before(); ?>
       <div id="main" class="<?php echo FULLWIDTH_CLASSES; ?>" role="main">
-      	<h1 class="banner-text">Hi, I'm Nick. What brings you here?</h1>
 	   <section>
 	     <div class="row">
 		<h2 id="business" class="well span2 offset3"><a href="<?php echo get_category_link(18); ?>">Business</a></h2>
@@ -21,6 +20,8 @@
 	   </section>
       </div><!-- /#main -->
     <?php roots_main_after(); ?>
-        </div><!-- /#content -->
+	<!--Not sure push is necessary-->
+    <div class="push"><!--//--></div>
+    </div><!-- /#content -->
   <?php roots_content_after(); ?>
 <?php get_footer(); ?> 
