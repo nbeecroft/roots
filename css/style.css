@@ -102,9 +102,10 @@ width:100%
 footer#content-info.container{
 margin-bottom:0px;
 padding:0px;
+border:none;
 }
 #content{
-min-height:400px;
+min-height:258px;
 }
 #wrap {
        	bottom:0px;
