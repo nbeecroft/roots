@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 function my_list_categories( $args ) {
 
 	// get category objects
@@ -20,3 +21,6 @@ function my_list_categories( $args ) {
 	// return output
 	return $output;
 }?>
+=======
+// Custom functions
+>>>>>>> fc9f001d96b20a9dba507b1c80f824d39d5645b9
