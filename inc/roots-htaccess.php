@@ -4,7 +4,8 @@
 // https://github.com/retlehs/roots/wiki/Nginx
 // https://github.com/retlehs/roots/wiki/Lighttpd
 
-if (stristr($_SERVER['SERVER_SOFTWARE'], 'apache') !== false) {
+if (stristr($_SERVER['SERVER_SOFTWARE'], 'apache') || stristr($_SERVER['SERVER_SOFTWARE'], 'litespeed') !== false)  {
+
   function roots_htaccess_writable() {
     if (!is_writable(get_home_path() . '.htaccess')) {
       if (current_user_can('administrator')) {
@@ -29,7 +30,7 @@ if (stristr($_SERVER['SERVER_SOFTWARE'], 'apache') !== false) {
       'img/(.*)'      => THEME_PATH . '/img/$1',
       'plugins/(.*)'  => RELATIVE_PLUGIN_PATH . '/$1'
     );
-    $wp_rewrite->non_wp_rules = $roots_new_non_wp_rules;
+    $wp_rewrite->non_wp_rules = array_merge($wp_rewrite->non_wp_rules, $roots_new_non_wp_rules);
     return $content;
   }
 
@@ -42,7 +43,7 @@ if (stristr($_SERVER['SERVER_SOFTWARE'], 'apache') !== false) {
   }
 
   // only use clean urls if the theme isn't a child or an MU (Network) install
-  if (!is_multisite() && !is_child_theme()) {
+  if (!is_multisite() && !is_child_theme() && get_option('permalink_structure')) {
     add_action('generate_rewrite_rules', 'roots_add_rewrites');
     add_action('generate_rewrite_rules', 'roots_add_h5bp_htaccess');
     if (!is_admin()) {
@@ -70,7 +71,7 @@ if (stristr($_SERVER['SERVER_SOFTWARE'], 'apache') !== false) {
       if ($mod_rewrite_enabled) {
         $h5bp_rules = extract_from_markers($htaccess_file, 'HTML5 Boilerplate');
           if ($h5bp_rules === array()) {
-            $filename = __DIR__ . '/h5bp-htaccess';
+            $filename = dirname(__FILE__) . '/h5bp-htaccess';
             return insert_with_markers($htaccess_file, 'HTML5 Boilerplate', extract_from_markers($filename, 'HTML5 Boilerplate'));
           }
       }

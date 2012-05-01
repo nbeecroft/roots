@@ -40,15 +40,28 @@ function roots_root_relative_url($input) {
     '!(https?://[^/|"]+)([^"]+)?!',
     create_function(
       '$matches',
-      // if full URL is site_url, return a slash for relative root
-      'if (isset($matches[0]) && $matches[0] === site_url()) { return "/";' .
-      // if domain is equal to site_url, then make URL relative
-      '} elseif (isset($matches[0]) && strpos($matches[0], site_url()) !== false) { return $matches[2];' .
-      // if domain is not equal to site_url, do not make external link relative
+      // if full URL is home_url("/"), return a slash for relative root
+      'if (isset($matches[0]) && $matches[0] === home_url("/")) { return "/";' .
+      // if domain is equal to home_url("/"), then make URL relative
+      '} elseif (isset($matches[0]) && strpos($matches[0], home_url("/")) !== false) { return $matches[2];' .
+      // if domain is not equal to home_url("/"), do not make external link relative
       '} else { return $matches[0]; };'
     ),
     $input
   );
+  return $output;
+}
+
+// Terrible workaround to remove the duplicate subfolder in the src of JS/CSS tags
+// Example: /subfolder/subfolder/css/style.css
+function roots_fix_duplicate_subfolder_urls($input) {
+  $output = roots_root_relative_url($input);
+  preg_match_all('!([^/]+)/([^/]+)!', $output, $matches);
+  if (isset($matches[1]) && isset($matches[2])) {
+    if ($matches[1][0] === $matches[2][0]) {
+      $output = substr($output, strlen($matches[1][0]) + 1);
+    }
+  }
   return $output;
 }
 
@@ -58,8 +71,6 @@ if (!is_admin() && !in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-regi
     'theme_root_uri',
     'stylesheet_directory_uri',
     'template_directory_uri',
-    'script_loader_src',
-    'style_loader_src',
     'plugins_url',
     'the_permalink',
     'wp_list_pages',
@@ -77,6 +88,9 @@ if (!is_admin() && !in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-regi
   );
 
   add_filters($tags, 'roots_root_relative_url');
+
+  add_filter('script_loader_src', 'roots_fix_duplicate_subfolder_urls');
+  add_filter('style_loader_src', 'roots_fix_duplicate_subfolder_urls');
 }
 
 // remove root relative URLs on any attachments in the feed
@@ -399,7 +413,7 @@ class Roots_Nav_Walker extends Walker_Nav_Menu {
 
 class Roots_Navbar_Nav_Walker extends Walker_Nav_Menu {
   function check_current($val) {
-    return preg_match('/(current-)|active|dropdown/', $val);
+    return preg_match('/(current-)|current_page_parent|active|dropdown/', $val);
   }
 
   function start_lvl(&$output, $depth) {
@@ -418,6 +432,11 @@ class Roots_Navbar_Nav_Walker extends Walker_Nav_Menu {
     $class_names = $value = '';
 
     $classes = empty($item->classes) ? array() : (array) $item->classes;
+
+    if (in_array('current_page_parent', $classes)) {
+      $classes[] = 'active';
+    }
+
     if ($args->has_children) {
       $classes[]      = 'dropdown';
       $li_attributes .= ' data-dropdown="dropdown"';
@@ -488,13 +507,11 @@ class Roots_Navbar_Nav_Walker extends Walker_Nav_Menu {
 }
 
 function roots_nav_menu_args($args = '') {
-  $args['container']  = false;
-  $args['depth']      = 2;
-  $args['items_wrap'] = '<ul class="nav">%3$s</ul>';
-  if (!$args['walker']) {
-    $args['walker'] = new Roots_Nav_Walker();
-  }
-  return $args;
+  $roots_nav_menu_args['container']  = false;
+  $roots_nav_menu_args['depth']      = 2;
+  $roots_nav_menu_args['items_wrap'] = '<ul class="%2$s">%3$s</ul>';
+  $roots_nav_menu_args['walker'] = new Roots_Nav_Walker();
+  return array_merge($roots_nav_menu_args, $args);
 }
 
 add_filter('wp_nav_menu_args', 'roots_nav_menu_args');
@@ -571,6 +588,10 @@ function roots_body_class() {
     $cat = get_the_category();
   }
 
+  if (is_front_page()) {
+    return; // Avoid duplicate 'home' class when using static front page
+  }
+
   if(!empty($cat)) {
     return $cat[0]->slug;
   } elseif (isset($term->slug)) {
@@ -619,32 +640,3 @@ function roots_widget_first_last_classes($params) {
 
 }
 add_filter('dynamic_sidebar_params', 'roots_widget_first_last_classes');
-
-// apply Bootstrap markup/classes to Gravity Forms (in progress)
-if (class_exists('RGForms')) {
-  update_option('rg_gforms_disable_css', 1);
-
-  // error message class
-  function roots_gform_validation_message($message, $form) {
-    $message = '<div class="alert alert-error fade in">';
-    $message .= '<a class="close" data-dismiss="alert">&times;</a>';
-    $message .= '<strong>There was a problem with your submission. Errors have been highlighted below.</strong>';
-    $message .= '</div>';
-    return $message;
-  }
-  add_filter('gform_validation_message', 'roots_gform_validation_message', 10, 2);
-
-  // field class
-  function roots_gform_field_css_class($classes, $field, $form) {
-    $classes .= " control-group";
-    return $classes;
-  }
-  add_action('gform_field_css_class', 'roots_gform_field_css_class', 10, 3);
-
-  // button class
-  function roots_gform_submit_button($button, $form) {
-      return "<button class='btn btn-primary' id='gform_submit_button_{$form["id"]}'><span>Submit</span></button>";
-  }
-  add_filter('gform_submit_button', 'roots_gform_submit_button', 10, 2);
-
-}

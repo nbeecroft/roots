@@ -1,40 +1,39 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Roots\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Emre Erkan <kara@karalamalar.net>\n"
-"Language-Team: karalamalar.net <kara@karalamalar.net>\n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-Language: Turkish\n"
-"X-Poedit-Country: TURKEY\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Lluis Gerard <lg@lluisgerard.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Text in echo
 #: comments.php:72
 #: comments.php:76
 msgid " (required)"
-msgstr "(gerekli)"
+msgstr "(obligatori)"
 
 #. Text in echo
 #: inc/roots-options.php:260
 msgid "#fullwidth CSS Classes"
-msgstr "#fullwidth CSS sınıfları"
+msgstr "Classe CSS de #fullwidth"
 
 #. Text in echo
 #: inc/roots-options.php:238
 #: inc/roots-options.php:240
 msgid "#main CSS Classes"
-msgstr "#main CSS sınıfları"
+msgstr "Classe CSS de #main"
 
 #. Text in echo
 #: inc/roots-options.php:248
 #: inc/roots-options.php:250
 msgid "#sidebar CSS Classes"
-msgstr "#sidebar CSS sınıfları"
+msgstr "Classe CSS de #sidebar"
 
 #. Text in function
 #: comments.php:8
@@ -44,27 +43,27 @@ msgstr "%1$s"
 #. Text in function
 #: inc/roots-activation.php:70
 msgid "%s Theme Activation"
-msgstr "%s tema etkinleştirme"
+msgstr "%s Activació del tema"
 
 #. Text in function
 #: inc/roots-options.php:214
 msgid "%s Theme Options"
-msgstr "%s Tema seçenekleri"
+msgstr "%s Opcions del tema"
 
 #. Text in function
 #: comments.php:43
 msgid "&larr; Older comments"
-msgstr "&larr; Eski yorumlar"
+msgstr "&larr; Comentaris anteriors"
 
 #. Text in function
 #: loop.php:34
 msgid "&larr; Older posts"
-msgstr "&larr; Eski yazılar"
+msgstr "&larr; Articles anteriors"
 
 #. Text in function
 #: comments.php:9
 msgid "(Edit)"
-msgstr "(Düzenle)"
+msgstr "(Edita)"
 
 #. Text in function
 #: inc/roots-options.php:1
@@ -74,17 +73,17 @@ msgstr "1140"
 #. Text in function
 #: inc/roots-options.php:1
 msgid "960gs (12 cols)"
-msgstr "960gs (12 kolon)"
+msgstr "960gs (12 columnes)"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "960gs (16 cols)"
-msgstr "960gs (16 kolon)"
+msgstr "960gs (16 columnes)"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "960gs (24 cols)"
-msgstr "960gs (24 kolon)"
+msgstr "960gs (24 columnes)"
 
 #. Text in function
 #: comments.php:7
@@ -99,18 +98,18 @@ msgstr "Adapt.js"
 #. Text in function
 #: inc/roots-activation.php:145
 msgid "Add all current published pages to the Primary Navigation"
-msgstr "Tüm yayınlanmış sayfaları birincil dolaşıma ekle"
+msgstr "Afegir totes les pàgines publicades al menú primari "
 
 #. Text in echo
 #: inc/roots-activation.php:137
 #: inc/roots-activation.php:139
 msgid "Add pages to menu?"
-msgstr "Sayfalar menüye eklensin mi?"
+msgstr "Afegir pàgines al menú?"
 
 #. Text in function
 #: archive.php:8
 msgid "Author Archives: %s"
-msgstr "Yazar arşivi: %s"
+msgstr "Arxius del autor: %s"
 
 #. Text in function
 #: inc/roots-options.php:1
@@ -125,12 +124,12 @@ msgstr "Bootstrap"
 #. Text in echo
 #: inc/roots-options.php:282
 msgid "Bootstrap Javascript Packages"
-msgstr "Bootstrap Javascript paketleri"
+msgstr "Bootstrap Javascript Packages"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "Bootstrap w/ Less"
-msgstr "Less ile Bootstrap"
+msgstr "Bootstrap w/ Less"
 
 #. Text in echo
 #: inc/roots-options.php:226
@@ -141,134 +140,134 @@ msgstr "CSS Grid Framework"
 #. Text in function
 #: inc/roots-activation.php:106
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Kalıcı bağlantı yapısını  /&#37;yazi_ismi&#37;/ olarak değiştir"
+msgstr "Canviar l'estructura permalink a /&#37;postname&#37;/"
 
 #. Text in echo
 #: inc/roots-activation.php:98
 msgid "Change permalink structure?"
-msgstr "Kalıcı bağlantı yapısı değiştirilsin mi?"
+msgstr "Canvia l'estructura permalink?"
 
 #. Text in function
 #: inc/roots-activation.php:119
 msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
-msgstr "Yükleme klasörünü /wp-content/uploads/ yerine /assets/ olarak değiştir"
+msgstr "Canviar la carpeta de pujada a /assets/ en lloc de /wp-content/uploads/"
 
 #. Text in echo
 #: inc/roots-activation.php:111
 msgid "Change uploads folder?"
-msgstr "Yükleme klasörü değiştirilsin mi?"
+msgstr "Canvia la carpeta de pujada?"
 
 #. Text in echo
 #: 404.php:11
 msgid "Check your spelling"
-msgstr "İmla kontrolü"
+msgstr "Comprovar l'ortografia"
 
 #. Text in echo
 #: inc/roots-widgets.php:107
 msgid "City/Locality:"
-msgstr "Şehir/Yerel:"
+msgstr "Ciutat/Localitat:"
 
 #. Text in echo
 #: inc/roots-options.php:315
 #: inc/roots-options.php:317
 msgid "Cleanup Menu Output"
-msgstr "Menü çıktısını temizle"
+msgstr "Neteja la sortida de menu (Cleanup Menu Output)"
 
 #. Text in echo
 #: 404.php:13
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
-msgstr "<a href=\"javascript:history.back()\">Geri</a> tuşuna basın"
+msgstr "Fes clic al botó <a href=\"javascript:history.back()\">Enrere</a>"
 
 #. Text in echo
 #: comments.php:85
 msgid "Comment"
-msgstr "Yorum"
+msgstr "Comentar"
 
 #. Text in echo
 #: comments.php:49
 #: comments.php:56
 msgid "Comments are closed."
-msgstr "Yorumlar kapalı."
+msgstr "Comentaris tancats."
 
 #. Text in function
 #: inc/roots-cleanup.php:1
 msgid "Continued"
-msgstr "Devamı"
+msgstr "Continua"
 
 #. Text in function
 #: inc/roots-activation.php:93
 msgid "Create a page called Home and set it to be the static front page"
-msgstr "Ana sayfa isminde bir sayfa oluşturun ve giriş sayfası olarak sabitleyin"
+msgstr "Crear una pàgina anomenada \"Home\" i fer que sigui una pàgina estàtica d'inici"
 
 #. Text in echo
 #: inc/roots-activation.php:124
 #: inc/roots-activation.php:126
 msgid "Create navigation menus?"
-msgstr "Dolaşım menüleri oluşturulsun mu?"
+msgstr "Crea menús de navegació?"
 
 #. Text in echo
 #: inc/roots-activation.php:85
 #: inc/roots-activation.php:87
 msgid "Create static front page?"
-msgstr "Sabit ana sayfa oluşturulsun mu?"
+msgstr "Crea una pàgina d'inici estàtica?"
 
 #. Text in function
 #: inc/roots-activation.php:132
 msgid "Create the Primary and Utility Navigation menus and set their locations"
-msgstr "Birincil dolaşım menüsü ve araçlar dolaşım menüsünü oluşturup yerlerini belirleyin"
+msgstr "Crear els menús Primari i Navegació Utilitat, i posicionar-los"
 
 #. Text in function
 #: archive.php:8
 msgid "Daily Archives: %s"
-msgstr "Günlük Arşiv: %s"
+msgstr "Arxius diàris: %s"
 
 #. Text in echo
 #: inc/roots-options.php:243
 #: inc/roots-options.php:253
 #: inc/roots-options.php:263
 msgid "Default:"
-msgstr "Varsayılan:"
+msgstr "Defecte:"
 
 #. Text in echo
 #: comments.php:76
 msgid "Email (will not be published)"
-msgstr "E-posta (Yayınlanmayacak)"
+msgstr "Email (no serà publicat)"
 
 #. Text in echo
 #: inc/roots-widgets.php:123
 msgid "Email:"
-msgstr "E-posta:"
+msgstr "Email:"
 
 #. Text in echo
 #: inc/roots-options.php:284
 msgid "Enable Bootstrap Javascript"
-msgstr "Bootstrap Javascript&#8217;i etkinleştir"
+msgstr "Activa Bootstrap Javascript"
 
 #. Text in echo
 #: inc/roots-options.php:304
 #: inc/roots-options.php:306
 msgid "Enable Root Relative URLs"
-msgstr "Root bağıl adresleri etkinleştir"
+msgstr "Activa Root Relative URLs"
 
 #. Text in function
 #: inc/roots-options.php:299
 msgid "Enter your UA-XXXXX-X ID"
-msgstr "UA-XXXXX-X Numaranızı girin"
+msgstr "Introdueix el teu UA-XXXXX-X ID"
 
 #. Text in echo
 #: 404.php:7
 msgid "File Not Found"
-msgstr "Dosya bulunamadı"
+msgstr "No s'ha trobat el fitxer"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "Foundation"
-msgstr "Temel"
+msgstr "Foundation"
 
 #. Text in echo
 #: inc/roots-options.php:258
 msgid "Full Width CSS Classes"
-msgstr "Tam genişlik CSS sınıfları"
+msgstr "Full Width CSS Classes"
 
 #. Text in echo
 #: inc/roots-options.php:294
@@ -279,17 +278,17 @@ msgstr "Google Analytics ID"
 #. Text in echo
 #: index.php:7
 msgid "Latest Posts"
-msgstr "Son yazılar"
+msgstr "Últims articles"
 
 #. Text in function
 #: comments.php:62
 msgid "Leave a Reply"
-msgstr "Bir yant bırakın"
+msgstr "Respon"
 
 #. Text in function
 #: comments.php:62
 msgid "Leave a Reply to %s"
-msgstr "%s için bir yanıt bırakın"
+msgstr "Respon a %s"
 
 #. Text in function
 #: inc/roots-options.php:1
@@ -299,37 +298,37 @@ msgstr "Less Framework 4"
 #. Text in echo
 #: comments.php:69
 msgid "Log out &raquo;"
-msgstr "Çıkış &raquo;"
+msgstr "Tanca sessió &raquo;"
 
 #. Text in function
 #: comments.php:69
 msgid "Log out of this account"
-msgstr "Bu hesaptan çıkış yapın"
+msgstr "Sortir d'aquesta sessió"
 
 #. Text in function
 #: comments.php:69
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "<a href=\"%s/wp-admin/profile.php\">%s</a> olarak giriş yapılmış."
+msgstr "Sessió oberta: <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #. Text in function
 #: archive.php:8
 msgid "Monthly Archives: %s"
-msgstr "Aylık arşiv: %s"
+msgstr "Arxius mensuals: %s"
 
 #. Text in echo
 #: comments.php:72
 msgid "Name"
-msgstr "İsim"
+msgstr "Nom"
 
 #. Text in function
 #: comments.php:44
 msgid "Newer comments &rarr;"
-msgstr "Yeni yorumlar &arr;"
+msgstr "Comentaris nous &rarr;"
 
 #. Text in function
 #: loop.php:35
 msgid "Newer posts &rarr;"
-msgstr "Yeni yazılar &rarr;"
+msgstr "Articles nous &rarr;"
 
 #. Text in echo
 #: inc/roots-activation.php:142
@@ -338,154 +337,154 @@ msgstr "Yeni yazılar &rarr;"
 #: inc/roots-options.php:309
 #: inc/roots-options.php:320
 msgid "No"
-msgstr "Hayır"
+msgstr "No"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "None"
-msgstr "Hiçbiri"
+msgstr "Ningun"
 
 #. Text in function
 #: loop-single.php:14
 #: loop-page.php:7
 msgid "Pages:"
-msgstr "Sayfalar:"
+msgstr "Pàgines:"
 
 #. Text in function
 #: inc/roots-htaccess.php:1
 msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
-msgstr "<a href=\"%s\">.htaccess</a> dosyasının yazılabilir olduğundan emin olun"
+msgstr "Si us plau, comproveu que el seu fitxer <a href=\"%s\">.htaccess</a> tingui permissos d'escriptura"
 
 #. Text in echo
 #: 404.php:9
 msgid "Please try the following:"
-msgstr "Lütfen şunu deneyin:"
+msgstr "Si us plau, provi de fer el següent:"
 
 #. Text in function
 #: inc/roots-cleanup.php:1
 msgid "Please update your <a href=\"%s\">site tagline</a> <a href=\"%s\" style=\"float: right;\">Hide Notice</a>"
-msgstr "Lütfen sitenizin <a href=\"%s\">sloganını</a> güncelleyin <a href=\"%s\" style=\"float: right;\">Bu notu gizle</a>"
+msgstr "Si us plau, actualitzi la seva <a href=\"%s\">frase web</a> <a href=\"%s\" style=\"float: right;\">Amaga Notificació</a>"
 
 #. Text in function
 #: functions.php:1
 msgid "Posted on %s at %s."
-msgstr "%s - %s için gönderildi"
+msgstr "Publicat a %s el %s."
 
 #. Text in function
 #: functions.php:1
 msgid "Primary Navigation"
-msgstr "Birincil dolaşım"
+msgstr "Menú Primari"
 
 #. Text in function
 #: 404.php:12
 msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "<a href=\"%s\">Ana sayfa</a>ya dön"
+msgstr "Torna a la <a href=\"%s\">pàgina d'inici</a>"
 
 #. Text in function
 #: inc/roots-widgets.php:1
 msgid "Roots: vCard"
-msgstr "Roots: vCard"
+msgstr ""
 
 #. Text in echo
 #: searchform.php:3
 #: searchform.php:4
 msgid "Search"
-msgstr "Ara"
+msgstr "Cerca"
 
 #. Text in echo
 #: search.php:7
 msgid "Search Results for"
-msgstr "Arama sonuçları"
+msgstr "Resultats de la recerca"
 
 #. Text in echo
 #: searchform.php:2
 msgid "Search for:"
-msgstr "Ara:"
+msgstr "Recerca de:"
 
 #. Text in echo
 #: loop.php:3
 msgid "Sorry, no results were found."
-msgstr "Üzgünüz, sonuç bulunamadı."
+msgstr "No s'han trobat resultats."
 
 #. Text in echo
 #: inc/roots-widgets.php:111
 msgid "State/Region:"
-msgstr "İlçe:"
+msgstr "Estat/Regió:"
 
 #. Text in echo
 #: inc/roots-widgets.php:103
 msgid "Street Address:"
-msgstr "Adres:"
+msgstr "Adreça:"
 
 #. Text in echo
 #: comments.php:88
 msgid "Submit Comment"
-msgstr "Yorumu gönder"
+msgstr "Envia Comentari"
 
 #. Text in echo
 #: inc/roots-widgets.php:119
 msgid "Telephone:"
-msgstr "Telefon:"
+msgstr "Telèfon:"
 
 #. Text in echo
 #: 404.php:8
 msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-msgstr "Görüntülemek istediğiniz sayfa kaldırılmış olabilir, ismi değişmiş olabilir ya da geçici olarak ulaşılamıyor olabilir."
+msgstr "La pàgina que està cercant deu haver estat eliminada, canviada de nom, o bé no és disponible temporalment."
 
 #. Text in function
 #: inc/roots-activation.php:1
 msgid "Theme Activation"
-msgstr "Tema Etkinleştirme"
+msgstr "Activació del Tema"
 
 #. Text in function
 #: inc/roots-options.php:1
 msgid "Theme Options"
-msgstr "Tema Seçenekleri"
+msgstr "Opcions del Tema"
 
 #. Text in echo
 #: comments.php:27
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Bu yazı parola korumalıdır. Yorumları görmek için parolayı giriniz."
+msgstr "Aquest article està protegit per una contrasenya. Entri-la per veure'n els comentaris."
 
 #. Text in echo
 #: inc/roots-widgets.php:99
 msgid "Title (optional):"
-msgstr "Başlık (isteğe bağlı):"
+msgstr "Títol (opcional):"
 
 #. Text in echo
 #: inc/roots-activation.php:100
 msgid "Update permalink structure?"
-msgstr "Kalıcı bağlantı yapısı güncellensin mi?"
+msgstr "Actualitza l'estructura d'enllaços (permalink)?"
 
 #. Text in echo
 #: inc/roots-activation.php:113
 msgid "Update uploads folder?"
-msgstr "Yükleme klasörü güncellensin mi?"
+msgstr "Actualitza la carpeta de pujada?"
 
 #. Text in function
 #: inc/roots-widgets.php:1
 msgid "Use this widget to add a vCard"
-msgstr "Bir vCard eklemek için bu bileşeni kullanın"
+msgstr "Utilitzi aquest wdiget per afegir una vCard"
 
 #. Text in function
 #: functions.php:1
 msgid "Utility Navigation"
-msgstr "Araçlar dolaşımı"
+msgstr "Navegació Utilitat"
 
 #. Text in echo
 #: comments.php:80
 msgid "Website"
-msgstr "Websitesi"
+msgstr "Web"
 
 #. Text in function
 #: functions.php:1
 msgid "Written by"
-msgstr "Yazar"
+msgstr "Escrit per"
 
 #. Text in function
 #: archive.php:8
 msgid "Yearly Archives: %s"
-msgstr "Yıllık arşiv: %s"
+msgstr "Arxius Anuals: %s"
 
 #. Text in echo
 #: inc/roots-activation.php:141
@@ -494,42 +493,25 @@ msgstr "Yıllık arşiv: %s"
 #: inc/roots-options.php:308
 #: inc/roots-options.php:319
 msgid "Yes"
-msgstr "Evet"
+msgstr "Sí"
 
 #. Text in function
 #: comments.php:65
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Yorum yapmak için <a href=\"%s\">giriş</a> yapmış olmalısınız."
+msgstr "Ha d'<a href=\"%s\">obrir una sessió</a> per enviar un comentari."
 
 #. Text in echo
 #: comments.php:13
 msgid "Your comment is awaiting moderation."
-msgstr "Yorumunuz onay bekliyor."
+msgstr "El seu comentari està pendent de moderació."
 
 #. Text in echo
 #: inc/roots-widgets.php:115
 msgid "Zipcode/Postal Code:"
-msgstr "Posta kodu:"
+msgstr "Codi Postal:"
 
 #. Text in function
 #: inc/roots-widgets.php:1
 msgid "vCard"
 msgstr "vCard"
 
-#~ msgid "% Responses to"
-#~ msgstr "% yanıt"
-
-#~ msgid "No Responses to"
-#~ msgstr "Yanıt yok"
-
-#~ msgid "One Response to"
-#~ msgstr "Bir yanıt"
-
-#~ msgid "Pages"
-#~ msgstr "Sayfalar"
-
-#~ msgid "Please do not load this page directly. Thanks!"
-#~ msgstr "Lütfen bu sayfayı direkt yüklemeyiniz. Teşekkürler!"
-
-#~ msgid "Posts"
-#~ msgstr "Yazılar"

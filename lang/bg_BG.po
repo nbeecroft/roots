@@ -1,61 +1,62 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: roots WP theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-04-13 16:17-0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Weslly Honorato <weslly.honorato@gmail.com>\n"
+"Last-Translator: yulian yordanov <yul.yordanov@post-scriptum.info>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:7
 msgid "File Not Found"
-msgstr "Arquivo não encontrado"
+msgstr "Страницата не е намерена"
 
 #: 404.php:11
 msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
-msgstr "A página solicitada pode ter sido removida, renomeada ou está temporariamente indisponível."
+msgstr "Страницата, която търсите може би е премахната, преместена или временно недостъпна."
 
 #: 404.php:13
 msgid "Please try the following:"
-msgstr "Por favor, tente o seguinte:"
+msgstr "Моля, опитайте следното:"
 
 #: 404.php:15
 msgid "Check your spelling"
-msgstr "Verifique sua grafia"
+msgstr "Проверете правописа."
 
 #: 404.php:16
 #, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
-msgstr "Retornar para a <a href=\"%s\">página inicial</a>"
+msgstr "Върнете се към <a href=\"%s\">началната страница</a>."
 
 #: 404.php:17
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
-msgstr "Clique no botão <a href=\"javascript:history.back()\">Voltar</a>"
+msgstr "Натиснете бутон <a href=\"javascript:history.back()\">Назад</a>."
 
 #: archive.php:13
 #, php-format
 msgid "Daily Archives: %s"
-msgstr "Arquivos Diários: %s"
+msgstr "Архив за дата: %s"
 
 #: archive.php:15
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr "Arquivos Mensais: %s"
+msgstr "Архив за месец: %s"
 
 #: archive.php:17
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr "Arquivos Anuais: %s"
+msgstr "Архив за година: %s"
 
 #: archive.php:21
 #, php-format
 msgid "Author Archives: %s"
-msgstr "Arquivos do Autor: %s"
+msgstr "Архив за автор: %s"
 
 #: comments.php:7
 #, php-format
@@ -69,141 +70,141 @@ msgstr "%1$s"
 
 #: comments.php:9
 msgid "(Edit)"
-msgstr "(Editar)"
+msgstr "(редакт.)"
 
 #: comments.php:15
 msgid "Your comment is awaiting moderation."
-msgstr "Seu comentário está aguardando moderação."
+msgstr "Коментарът Ви изчаква одобрение."
 
 #: comments.php:32
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Este post é protegido por senha. Digite a senha para visualizar os comentários."
+msgstr "Тази публикация е защитена с парола. Въведете паролата, за да видите коментарите."
 
 #: comments.php:49
 msgid "&larr; Older comments"
-msgstr "&larr; Comentários mais antigos"
+msgstr "&larr; По-стари коментари"
 
 #: comments.php:50
 msgid "Newer comments &rarr;"
-msgstr "Comentários mais novos &rarr;"
+msgstr "По-нови коментари &rarr;"
 
 #: comments.php:58
 #: comments.php:68
 msgid "Comments are closed."
-msgstr "Os comentários estão fechados."
+msgstr "Коментарите са затворени"
 
 #: comments.php:75
 msgid "Leave a Reply"
-msgstr "Deixar uma Resposta"
+msgstr "Оставете коментар"
 
 #: comments.php:75
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr "Deixar uma resposta para %s"
+msgstr "Оставете коментар към %s"
 
 #: comments.php:78
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Você precisa estar <a href=\"%s\">logado</a> para postar um comentário."
+msgstr "Трябва да сте <a href=\"%s\">вписан</a>, за да публикувате коментар."
 
 #: comments.php:82
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
-msgstr "Logado como <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "Вписан като: <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
 #: comments.php:82
 msgid "Log out of this account"
-msgstr "Sair desta conta"
+msgstr "Излизане от този профил"
 
 #: comments.php:82
 msgid "Log out &raquo;"
-msgstr "Sair &raquo;"
+msgstr "Изход &raquo;"
 
 #: comments.php:84
 msgid "Name"
-msgstr "Nome"
+msgstr "Име"
 
 #: comments.php:84
 #: comments.php:86
 msgid " (required)"
-msgstr " (obrigatório)"
+msgstr " (задължително)"
 
 #: comments.php:86
 msgid "Email (will not be published)"
-msgstr "Email (não será publicado)"
+msgstr "Е-адрес (няма да бъде публикуван)"
 
 #: comments.php:88
 msgid "Website"
-msgstr "Site"
+msgstr "Уеб-страница"
 
 #: comments.php:91
 msgid "Comment"
-msgstr "Comentar"
+msgstr "Коментар"
 
 #: comments.php:93
 msgid "Submit Comment"
-msgstr "Enviar Comentário"
+msgstr "Публикуване"
 
 #: functions.php:45
 msgid "Primary Navigation"
-msgstr "Navegação Primária"
+msgstr "Основно меню"
 
 #: functions.php:74
 #, php-format
 msgid "Posted on %s at %s."
-msgstr "Publicado em %s às %s."
+msgstr "Публикувано на %s в %s."
 
 #: functions.php:75
 msgid "Written by"
-msgstr "Escrito por"
+msgstr "Автор"
 
 #: index.php:7
 msgid "Latest Posts"
-msgstr "Últimos Posts"
+msgstr "Най-нови публикации"
 
 #: loop-single.php:14
 msgid "Pages:"
-msgstr "Páginas:"
+msgstr "Страници:"
 
 #: loop.php:5
 msgid "Sorry, no results were found."
-msgstr "Desculpe, nenhum resultado foi encontrado."
+msgstr "За съжаление няма открити резултати"
 
 #: loop.php:37
 msgid "&larr; Older posts"
-msgstr "&larr; Posts mais antigos"
+msgstr "&larr; По-стари публикации"
 
 #: loop.php:38
 msgid "Newer posts &rarr;"
-msgstr "Posts mais novos &rarr;"
+msgstr "По-нови публикации &rarr;"
 
 #: search.php:7
 msgid "Search Results for"
-msgstr "Resultados da Busca por"
+msgstr "Резултати от търсенето на"
 
 #: searchform.php:2
 msgid "Search for:"
-msgstr "Buscar por:"
+msgstr "Търсене на:"
 
 #: searchform.php:3
 #: searchform.php:4
 msgid "Search"
-msgstr "Busca"
+msgstr "Търсене"
 
 #: inc/roots-activation.php:32
 #: inc/roots-activation.php:33
 msgid "Theme Activation"
-msgstr "Ativação do Tema"
+msgstr "Активиране"
 
 #: inc/roots-activation.php:70
 #, php-format
 msgid "%s Theme Activation"
-msgstr "%s Ativação do Tema"
+msgstr "%s активиране"
 
 #: inc/roots-activation.php:85
 #: inc/roots-activation.php:87
 msgid "Create static front page?"
-msgstr "Criar uma página inicial estática?"
+msgstr "Искате ли да създадете статична начална страница?"
 
 #: inc/roots-activation.php:89
 #: inc/roots-activation.php:102
@@ -211,7 +212,7 @@ msgstr "Criar uma página inicial estática?"
 #: inc/roots-activation.php:128
 #: inc/roots-activation.php:141
 msgid "Yes"
-msgstr "Sim"
+msgstr "Да"
 
 #: inc/roots-activation.php:90
 #: inc/roots-activation.php:103
@@ -219,71 +220,71 @@ msgstr "Sim"
 #: inc/roots-activation.php:129
 #: inc/roots-activation.php:142
 msgid "No"
-msgstr "Não"
+msgstr "Не"
 
 #: inc/roots-activation.php:93
 msgid "Create a page called Home and set it to be the static front page"
-msgstr "Criar uma página chamada Home e configurá-la como a página inicial estática"
+msgstr "Създаване на страница наречена Начало и задаването й като статична начална страница"
 
 #: inc/roots-activation.php:98
 msgid "Change permalink structure?"
-msgstr "Modificar a estrutura de links permanentes?"
+msgstr "Да се промени ли структурата на възките?"
 
 #: inc/roots-activation.php:100
 msgid "Update permalink structure?"
-msgstr "Atualizar a estrutura de links permanentes?"
+msgstr "Искате ли да обновите структурата на връзките?"
 
 #: inc/roots-activation.php:106
 msgid "Change permalink structure to /&#37;postname&#37;/"
-msgstr "Modificar a estrutura de links permanentes para /&#37;postname&#37;/"
+msgstr "Промяна структурата на връзките: /&#37;postname&#37;/"
 
 #: inc/roots-activation.php:111
 msgid "Change uploads folder?"
-msgstr "Modificar a localização da pasta de uploads?"
+msgstr "Да се промени ли папката за качени файлове?"
 
 #: inc/roots-activation.php:113
 msgid "Update uploads folder?"
-msgstr "Atualizar a pasta de uploads?"
+msgstr "Искате ли да обновите папката за качени файлове?"
 
 #: inc/roots-activation.php:119
 msgid "Change uploads folder to /assets/ instead of /wp-content/uploads/"
-msgstr "Modificar a localização da pasta de uploads para /assets/ em vez de /wp-content/uploads/"
+msgstr "Променяне на папката за качените файлове на /assets/, вместо /wp-content/uploads/"
 
 #: inc/roots-activation.php:124
 #: inc/roots-activation.php:126
 msgid "Create navigation menu?"
-msgstr "Criar o menu de navegação?"
+msgstr "Искате ли да създадете меню?"
 
 #: inc/roots-activation.php:132
 msgid "Create the Primary Navigation menu and set the location"
-msgstr "Criar o menu de navegação primário e atualizar a localização"
+msgstr "Създаване на Основно меню и задаване на местоположението му"
 
 #: inc/roots-activation.php:137
 #: inc/roots-activation.php:139
 msgid "Add pages to menu?"
-msgstr "Adicionar páginas ao menu?"
+msgstr "Искате ли да добавите страниците?"
 
 #: inc/roots-activation.php:145
 msgid "Add all current published pages to the Primary Navigation"
-msgstr "Adicionar todas as páginas publicadas ao menu de navegação primária"
+msgstr "Добавяне на всички публикувани страници към Основното меню"
 
 #: inc/roots-cleanup.php:370
 msgid "Continued"
-msgstr "Continua"
+msgstr "Още"
 
 #: inc/roots-cleanup.php:538
 #, php-format
 msgid "Please update your <a href=\"%s\">site tagline</a> <a href=\"%s\" style=\"float: right;\">Hide Notice</a>"
-msgstr "Por favor, atualize a <a href=\"%s\">descrição do seu site</a> <a href=\"%s\" style=\"float: right;\">Fechar</a>"
+msgstr "Моля, редактирайте <a href=\"%s\">описанието</a> на сайта. <a href=\"%s\" style=\"float: right;\">Скриване</a>"
 
 #: inc/roots-htaccess.php:11
 #, php-format
 msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
-msgstr "Por favor, certifique-se de que seu arquivo <a href=\"%s\">.htaccess</a> possui permissão de escrita"
+msgstr "Моля, уверете се че файлът <a href=\"%s\">.htaccess</a> може да се редактира"
 
 #: inc/roots-widgets.php:5
 msgid "Use this widget to add a vCard"
-msgstr "Utilize este widget para adicionar um vCard"
+msgstr "Използвайте тази джаджа, за да добавите vCard"
 
 #: inc/roots-widgets.php:6
 msgid "Roots: vCard"
@@ -295,82 +296,29 @@ msgstr "vCard"
 
 #: inc/roots-widgets.php:99
 msgid "Title (optional):"
-msgstr "Título (opcional):"
+msgstr "Заглавие (незадълж.)"
 
 #: inc/roots-widgets.php:103
 msgid "Street Address:"
-msgstr "Endereço:"
+msgstr "Улица:"
 
 #: inc/roots-widgets.php:107
 msgid "City/Locality:"
-msgstr "Cidade/Localização:"
+msgstr "Град:"
 
 #: inc/roots-widgets.php:111
 msgid "State/Region:"
-msgstr "Estado/Região:"
+msgstr "Държава:"
 
 #: inc/roots-widgets.php:115
 msgid "Zipcode/Postal Code:"
-msgstr "CEP/Código Postal:"
+msgstr "Пощенски код:"
 
 #: inc/roots-widgets.php:119
 msgid "Telephone:"
-msgstr "Telefone:"
+msgstr "Телефон:"
 
 #: inc/roots-widgets.php:123
 msgid "Email:"
-msgstr "Email:"
+msgstr "Е-поща:"
 
-#~ msgid "#main CSS Classes"
-#~ msgstr "Classes de CSS para #main"
-
-#~ msgid "#sidebar CSS Classes"
-#~ msgstr "Classes de CSS para #sidebar"
-
-#~ msgid "% Responses to"
-#~ msgstr "% Respostas para"
-
-#~ msgid "1140"
-#~ msgstr "1140"
-
-#~ msgid "960gs (12 cols)"
-#~ msgstr "960gs (12 cols)"
-
-#~ msgid "960gs (16 cols)"
-#~ msgstr "960gs (16 cols)"
-
-#~ msgid "960gs (24 cols)"
-#~ msgstr "960gs (24 cols)"
-
-#~ msgid "Adapt.js"
-#~ msgstr "Adapt.js"
-
-#~ msgid "Blueprint CSS"
-#~ msgstr "Blueprint CSS"
-
-#~ msgid "CSS Grid Framework"
-#~ msgstr "Framework de CSS Grids"
-
-#~ msgid "Default: %s"
-#~ msgstr "Padrão: %s"
-
-#~ msgid "Enter your UA-XXXXX-X ID"
-#~ msgstr "Digite o seu ID UA-XXXXX-X"
-
-#~ msgid "Google Analytics ID"
-#~ msgstr "ID do Google Analytics"
-
-#~ msgid "No Responses to"
-#~ msgstr "Nenhuma Resposta para"
-
-#~ msgid "One Response to"
-#~ msgstr "Uma Resposta para"
-
-#~ msgid "Pages"
-#~ msgstr "Páginas"
-
-#~ msgid "Please do not load this page directly. Thanks!"
-#~ msgstr "Por favor, não carregue esta página diretamente. Obrigado!"
-
-#~ msgid "Posts"
-#~ msgstr "Posts"
