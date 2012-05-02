@@ -75,79 +75,96 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
-	/* General */
-/*Need to make background image to footer and then body/wrapper/container into a gradient. Will be the only way to do this properly*/
 
-	/*Footer*/
-html, body {
-           /* height: 100%;*/
-        }
-#footer-bg {
-		/*Get image + set basic position*/		
-		background:url(/img/footer.jpg) bottom center no-repeat;
-		background-size:cover;
-		width: 100%;
-	}
-footer {
-min-height:279px;
-width:100%
-}		
-/*footer.container {
-        background-image:url(/img/footer.jpg);
-	min-height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;
-	max-height: 100%;
-	background-size: contain;
-	}*/
-footer#content-info.container{
-margin-bottom:0px;
-padding:0px;
-border:none;
+	/* General */
+
+	/*Background*/
+
+body#bg-color {
+	background-color:#134997;       
 }
+
 #content{
-min-height:258px;
+	min-height:332px;
 }
+
 #wrap {
        	bottom:0px;
         height: auto !important;
         height: 100%;
         /*margin: 0 auto -63px;*/
-        }
+}
+
 .push {
-            height: 63px;
-        }
+	height: 63px;
+}
+
+#content-wrap {
+	background: #134997; /* Old browsers */
+	background: -moz-linear-gradient(top, #134997 0%, #4b6796 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#134997), color-stop(100%,#4b6796)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #134997 0%,#4b6796 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #134997 0%,#4b6796 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #134997 0%,#4b6796 100%); /* IE10+ */
+	background: linear-gradient(top, #134997 0%,#4b6796 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#134997', endColorstr='#4b6796',GradientType=0 ); /* IE6-9 */
+}
+
 .align-center{
-text-align:center;
+	text-align:center;
 }
+
 .align-right{
-text-align:right;
+	text-align:right;
 }
+
+
+	/*Footer*/
+#footer-bg {
+	/*Get image + set basic position*/		
+	background:url(/img/footer.jpg) bottom center no-repeat;
+	background-size:cover;
+	width: 100%;
+	border-top:1px solid #E5E5E5;
+}
+
+footer {
+	min-height:250px;
+	width:100%
+}
+		
+footer#content-info.container{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+	border:none;
+}
+
+
+
 	/* Front Page*/
 .banner-text{
-color:#30A7E3;
-text-align:center;
-margin:20px 0 38px 0;
+	color:#30A7E3;
+	text-align:center;
+	margin:20px 0 38px 0;
 }
+
 #business{
-text-align:center;
+	text-align:center;
 }
+
 #pleasure{
-text-align:center;
+	text-align:center;
 }
-#category-list-business{
-/*display:inline;*/
-}
-#category-list-pleasure{
-/*display:inline;*/
-}
+
 #category-list-business li{
-text-align:center;
-display:inline;
+	text-align:center;
+	display:inline;
 }
+
 #category-list-pleasure li{
-text-align:center;
-display:inline;
+	text-align:center;
+	display:inline;
 }
 
 

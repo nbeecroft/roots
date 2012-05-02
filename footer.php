@@ -1,6 +1,6 @@
 
-  </div><!-- /#wrap -->
-
+   </div><!-- /#wrap -->
+  </div><!--/#content-wrap-->
   <?php roots_footer_before(); ?>
    <div id="footer-bg"> 
     <footer id="content-info" class="<?php echo WRAP_CLASSES; ?>" role="contentinfo">
