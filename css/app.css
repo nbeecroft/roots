@@ -16,7 +16,16 @@ body { }
 body { padding-top: 60px; }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
+#profile-pic {
+	float:left;
+	margin-right:15px;
+}
 
+.banner-text{
+	color:#30A7E3;
+	text-align:center;
+	margin:20px 0 38px 0;
+}
 
 /* =============================================================================
    Content
@@ -32,7 +41,21 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 
 #main { }
 
+#business{
+	text-align:center;
+}
 
+#pleasure{
+	text-align:center;
+}
+
+#category-list-business li{
+	list-style:none;
+}
+
+#category-list-pleasure li{
+	list-style:none;
+}
 
 /* =============================================================================
    Sidebar
@@ -66,7 +89,8 @@ ol.commentlist img.avatar { float: left; margin-right: 10px; }
 /* =============================================================================
    Footer
    ========================================================================== */
-
+footer {
+}
 #content-info {
   margin-top: 45px;
   padding: 35px 0 36px;
@@ -75,6 +99,20 @@ ol.commentlist img.avatar { float: left; margin-right: 10px; }
 
 #content-info p small { font-size: 13px; }
 
+/*#footer-bg {
+	NEEDS COMMENT: Get image + set basic position		
+	background:url(/img/footer.jpg) bottom center no-repeat;
+	background-size:cover;
+	width: 100%;
+	border-top:1px solid #E5E5E5;
+}*/
+
+/*footer#content-info.container{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+	border:none;
+}*/
 
 
 /* =============================================================================

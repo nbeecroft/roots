@@ -19,8 +19,7 @@
   <?php wp_head(); ?>
 
 </head>
-
-<body <?php body_class(roots_body_class()); ?>>
+<body <?php body_class('test', roots_body_class()); ?>>
 
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
@@ -34,7 +33,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo home_url(); ?>/">
+          <img id="profile-pic" src="https://graph.facebook.com/nicolasbeecroft/picture">
+	  <a class="brand" href="<?php echo home_url(); ?>/">
             <?php bloginfo('name'); ?>
           </a>
           <nav id="nav-main" class="nav-collapse" role="navigation">
