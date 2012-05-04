@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <img id="profile-pic" src="https://graph.facebook.com/nicolasbeecroft/picture">
+          <img id="profile-pic" class="nav" src="https://graph.facebook.com/nicolasbeecroft/picture">
 	  <a class="brand" href="<?php echo home_url(); ?>/">
             <?php bloginfo('name'); ?>
           </a>
