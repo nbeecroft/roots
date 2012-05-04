@@ -46,4 +46,5 @@
   <?php roots_header_after(); ?>
 
   <?php roots_wrap_before(); ?>
+ <div class="sticky-wrapper">
   <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">

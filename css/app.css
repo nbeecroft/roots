@@ -99,20 +99,31 @@ footer {
 
 #content-info p small { font-size: 13px; }
 
-/*#footer-bg {
-	NEEDS COMMENT: Get image + set basic position		
-	background:url(/img/footer.jpg) bottom center no-repeat;
-	background-size:cover;
-	width: 100%;
-	border-top:1px solid #E5E5E5;
-}*/
+	/*Sticky Footer*/
+	html, body { 
+		  height:100%
+		}
 
-/*footer#content-info.container{
-	margin-top:0px;
-	margin-bottom:0px;
-	padding:0px;
-	border:none;
-}*/
+	.sticky-wrapper {
+		  min-height: 100%;
+		  height: auto !important;
+		  height: 100%;
+		  margin: 0 auto -63px;
+		}
+
+	.sticky-wrapper > .container {
+		  padding-top: 60px;
+		}	
+
+	.push {
+		  height: 63px;
+		}	
+
+	footer {
+		  padding: 17px 0 18px 0;
+		  border-top: 1px solid #EEE;
+		}
+
 
 
 /* =============================================================================
