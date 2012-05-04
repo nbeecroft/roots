@@ -13,7 +13,7 @@ body { }
 #banner { }
 
 /* Fixed Topbar Navigation */
-body { padding-top: 60px; }
+body {/*TEMP: padding-top: 60px;*/ }
 body.admin-bar .navbar-fixed-top { top: 28px; }
 
 #profile-pic {
@@ -92,8 +92,8 @@ ol.commentlist img.avatar { float: left; margin-right: 10px; }
 footer {
 }
 #content-info {
-  margin-top: 45px;
-  padding: 35px 0 36px;
+ /* margin-top: 45px;
+  TEMP  padding: 35px 0 36px;*/
   border-top: 1px solid #e5e5e5;
 }
 
@@ -108,15 +108,15 @@ footer {
 		  min-height: 100%;
 		  height: auto !important;
 		  height: 100%;
-		  margin: 0 auto -63px;
+		  margin: 0 auto -74px;
 		}
 
 	.sticky-wrapper > .container {
-		  padding-top: 60px;
+		  padding-top: 90px;
 		}	
 
 	.push {
-		  height: 63px;
+		  height: 74px;
 		}	
 
 	footer {

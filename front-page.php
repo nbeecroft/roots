@@ -5,18 +5,23 @@
       <div id="main" class="<?php echo FULLWIDTH_CLASSES; ?>" role="main">
 	   <section>
 	     <div class="hero-unit">
+		<h1>Hi!</h2>
+		<p>Please bear with me while I finish the design for this site</p>
+     	     </div>
+	   </section>  
+	   <section>
+	    <div class="child-categories row">
+	      <div class="span4">
 		<h2><a href="<?php echo get_category_link(18); ?>"><?php echo get_cat_name(18);?></a></h2>
-		<h2><a href="<?php echo get_category_link(20); ?>"><?php echo get_cat_name(20);?></a></h2>
-	     </div>
-	     <div class="child-categories row">
-	       <ul id="category-list-business" class="span1 offset1">
-		 <?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
-		</ul>
-	       <ul id="category-list-pleasure" class="span1 offset1">
-		 <?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
-	       </ul>
-	     </div>
-	   </section>
+	        <ul id="category-list-business"><?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
+	        </ul>
+	       </div>
+	      <div class="span4">
+	        <h2><a href="<?php echo get_category_link(20); ?>"><?php echo get_cat_name(20);?></a></h2>
+	        <ul id="category-list-pleasure"><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
+	        </ul>
+	      </div>
+	    </div>
       </div><!-- /#main -->
     <?php roots_main_after(); ?>
     </div><!-- /#content -->

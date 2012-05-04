@@ -1,5 +1,6 @@
 
   </div><!-- /#wrap -->
+  <div class="push"></div>
  </div><!--/.sticky-wrapper-->
   <?php roots_footer_before(); ?>
   <footer id="content-info" class="<?php echo WRAP_CLASSES; ?>" role="contentinfo">
