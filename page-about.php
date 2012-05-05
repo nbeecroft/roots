@@ -19,7 +19,7 @@ get_header(); ?>
 		      <li><a href="http://lesscss.org/" target="_blank">Less - The dynamic stylesheet language</a></li>
 		    </ul>
 		</ul>
-
+		<p>I also use <a href="https://github.com">GitHub</a> to back up the code for this theme. My repo is public and can be found here: <a href="https://github.com/nbeecroft">github.com/nbeecroft</a> if you want to take a look. :)</p>
 	</section>
 	<hr />
 	<section>

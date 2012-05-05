@@ -21,7 +21,12 @@
 	        <ul id="category-list-pleasure"><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
 	        </ul>
 	      </div>
+	      <div class="span4">
+		<h2>My Projects</h2>
+		<p>Quisque aliquam varius nibh nec pellentesque. Vivamus erat sapien, aliquet a fermentum vel, sollicitudin ut ante. Aliquam erat volutpat. Vivamus quis neque leo. Vivamus tempus, ipsum vel congue commodo, nunc ligula vulputate sem, vitae faucibus massa massa vel risus. Etiam ut molestie risus. Donec sed dolor libero.</p>
+	      </div>
 	    </div>
+	   </section>
       </div><!-- /#main -->
     <?php roots_main_after(); ?>
     </div><!-- /#content -->
