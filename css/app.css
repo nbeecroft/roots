@@ -41,22 +41,57 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 
 #main { }
 
-#business{
-	text-align:center;
+.category-list {
+}
+.category-list h2 {
+	padding-bottom:20px;
+	font-size:3em;
+	color:#fff;
 }
 
-#pleasure{
-	text-align:center;
+.category-list ul {
+	margin-left:2px;
 }
 
-#category-list-business li{
+.category-list li {
 	list-style:none;
+	font-size:2em;
+	color:#fff;
 }
 
-#category-list-pleasure li{
-	list-style:none;
+.category-list a {
+	color:#fff;
+	line-height:1em;
+}
+.hero-unit-small-blue {
+	width:310px;
+	padding: 30px;
+	margin-bottom: 30px;
+	background-color: #44ACCF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
+}
+.hero-unit-small-red {
+	width:310px;
+	padding: 30px;
+	margin-bottom: 30px;
+	background-color: #EE3E64;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
 
+.hero-unit-small-green {
+	width:310px;
+	padding: 30px;
+	margin-bottom: 30px;
+	background-color: #7DDE3C;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
 /* =============================================================================
    Sidebar
    ========================================================================== */

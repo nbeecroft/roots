@@ -10,20 +10,20 @@
      	     </div>
 	   </section>  
 	   <section>
-	    <div class="child-categories row">
-	      <div class="span4">
+	    <div class="child-categories category-list row">
+	      <div class="span3 hero-unit-small-blue">
 		<h2><a href="<?php echo get_category_link(18); ?>"><?php echo get_cat_name(18);?></a></h2>
-	        <ul id="category-list-business"><?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
+	        <ul><?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
 	        </ul>
 	       </div>
-	      <div class="span4">
+	      <div class="span3 hero-unit-small-red">
 	        <h2><a href="<?php echo get_category_link(20); ?>"><?php echo get_cat_name(20);?></a></h2>
-	        <ul id="category-list-pleasure"><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
+	        <ul class="category-list"><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
 	        </ul>
 	      </div>
-	      <div class="span4">
+	      <div class="span3 hero-unit-small-green">
 		<h2>My Projects</h2>
-		<p>Quisque aliquam varius nibh nec pellentesque. Vivamus erat sapien, aliquet a fermentum vel, sollicitudin ut ante. Aliquam erat volutpat. Vivamus quis neque leo. Vivamus tempus, ipsum vel congue commodo, nunc ligula vulputate sem, vitae faucibus massa massa vel risus. Etiam ut molestie risus. Donec sed dolor libero.</p>
+		<p></p>
 	      </div>
 	    </div>
 	   </section>
