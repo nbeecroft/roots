@@ -1,15 +1,16 @@
 <?php
 
 function roots_scripts() {
-  // Not included by default since Bootstrap's reset supersedes h5bp's. Include if you aren't using Bootstrap. 
-  //wp_enqueue_style('roots_style', get_template_directory_uri() . '/css/style.css', false, null);
-  wp_enqueue_style('roots_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css');
+  wp_enqueue_style('roots_bootstrap_style', get_template_directory_uri() . '/css/bootstrap.css', false, null);
 
-  if (BOOTSTRAP_RESPONSIVE) {
-    wp_enqueue_style('roots_bootstrap_responsive_style', get_template_directory_uri() . '/css/bootstrap-responsive.css', array('roots_bootstrap_style'));
+  if (current_theme_supports('bootstrap-responsive')) {
+    wp_enqueue_style('roots_bootstrap_responsive_style', get_template_directory_uri() . '/css/bootstrap-responsive.css', array('roots_bootstrap_style'), null);
   }
 
-  wp_enqueue_style('roots_app_style', get_template_directory_uri() . '/css/app.css', false);
+  // If you're not using Bootstrap, include H5BP's style.css:
+  // wp_enqueue_style('roots_style', get_template_directory_uri() . '/css/style.css', false, null);
+
+  wp_enqueue_style('roots_app_style', get_template_directory_uri() . '/css/app.css', false, null);
 
   if (is_child_theme()) {
     wp_enqueue_style('roots_child_style', get_stylesheet_uri());
@@ -27,7 +28,7 @@ function roots_scripts() {
   wp_register_script('roots_plugins', get_template_directory_uri() . '/js/plugins.js', false, null, false);
   wp_register_script('roots_main', get_template_directory_uri() . '/js/main.js', false, null, false);
   wp_enqueue_script('roots_plugins');
-  wp_enqueue_script('roots_script');
+  wp_enqueue_script('roots_main');
 }
 
 add_action('wp_enqueue_scripts', 'roots_scripts', 100);

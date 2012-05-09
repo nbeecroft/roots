@@ -24,6 +24,7 @@
   <!--[if lt IE 7]><p class="chromeframe">Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
   <?php roots_header_before(); ?>
+<<<<<<< HEAD
     <header id="banner" class="navbar navbar-fixed-top" role="banner">
       <?php roots_header_inside(); ?>
       <div class="navbar-inner">
@@ -43,6 +44,15 @@
         </div>
       </div>
     </header>
+=======
+  <?php
+    if (current_theme_supports('bootstrap-top-navbar')) {
+      get_template_part('templates/header', 'top-navbar');
+    } else {
+      get_template_part('templates/header', 'default');
+    }
+  ?>
+>>>>>>> upstream/master
   <?php roots_header_after(); ?>
 
   <?php roots_wrap_before(); ?>
