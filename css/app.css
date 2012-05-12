@@ -2,9 +2,12 @@
    Base
    ========================================================================== */
 
-body { }
+body {
+	background-color:#F2F1E9;
+ }
 
-
+#wrap{
+}
 
 /* =============================================================================
    Header
@@ -13,12 +16,10 @@ body { }
 #banner { }
 
 /* Fixed Topbar Navigation */
-<<<<<<< HEAD
+
 body {/*TEMP: padding-top: 60px;*/ }
-=======
-body.top-navbar { padding-top: 60px; }
->>>>>>> upstream/master
-body.admin-bar .navbar-fixed-top { top: 28px; }
+body.top-navbar { /*padding-top: 60px;*/ }
+body.admin-bar .navbar-fixed-top {top: 28px; }
 
 #profile-pic {
 	margin-top:5px;
@@ -29,6 +30,19 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 	color:#30A7E3;
 	text-align:center;
 	margin:20px 0 38px 0;
+}
+
+#masthead {
+	background-color: #049CD9;
+	background-repeat: no-repeat;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#4774C8), to(#375499));
+	background-image: -webkit-linear-gradient(#4774C8, #375499);
+	background-image: -moz-linear-gradient(#4774C8, #375499);
+	background-image: -o-linear-gradient(top, #4774C8, #375499);
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#4774C8), to(#375499));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4774c8', endColorstr='#375499', GradientType=0);
+	margin:60px 0px 30px 0px;
+	color:#fff;
 }
 
 /* =============================================================================
@@ -49,7 +63,7 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 }
 .category-list h2 {
 	padding-bottom:20px;
-	font-size:3em;
+	font-size:2.5em;
 	color:#fff;
 }
 
@@ -67,34 +81,37 @@ body.admin-bar .navbar-fixed-top { top: 28px; }
 	color:#fff;
 	line-height:1em;
 }
-.hero-unit-small-blue {
+.hero-unit-small {
 	width:310px;
 	padding: 30px;
 	margin-bottom: 30px;
-	background-color: #44ACCF;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 
 }
-.hero-unit-small-red {
-	width:310px;
-	padding: 30px;
-	margin-bottom: 30px;
+
+.blue1{
+	background-color:#44ACCF;
+}
+
+.blue2{
+	background-color:#64B5FF;
+}
+
+.blue3{
+	background-color:#1671D4;
+}
+.red1 {
 	background-color: #EE3E64;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
 }
 
-.hero-unit-small-green {
-	width:310px;
-	padding: 30px;
-	margin-bottom: 30px;
+.green1 {
 	background-color: #7DDE3C;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+}
+
+#article-heading {
+	text-align:center;
 }
 /* =============================================================================
    Sidebar
@@ -151,7 +168,7 @@ footer {
 		}
 
 	.sticky-wrapper > .container {
-		  padding-top: 90px;
+		  padding-top: 60px;
 		}	
 
 	.push {
@@ -183,6 +200,6 @@ footer {
 @media (max-width: 979px) {
   /* Fix top padding when using the responsive grid with the fixed topbar */
   body.top-navbar {
-    padding-top: 0;
+   /* padding-top: 0;*/
   }
 }
