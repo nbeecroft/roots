@@ -41,7 +41,8 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 	background-image: -o-linear-gradient(top, #4774C8, #375499);
 	background-image: -khtml-gradient(linear, left top, left bottom, from(#4774C8), to(#375499));
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4774c8', endColorstr='#375499', GradientType=0);
-	margin:60px 0px 30px 0px;
+	min-height:200px;
+    margin:60px 0px 0px 0px;
 	color:#fff;
 }
 
@@ -164,7 +165,7 @@ footer {
 		  min-height: 100%;
 		  height: auto !important;
 		  height: 100%;
-		  margin: 0 auto -74px;
+		  margin: 30px auto -74px;
 		}
 
 	.sticky-wrapper > .container {

@@ -34,12 +34,12 @@
 	        <ul><?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
 	        </ul>
 	       </div>
-	      <div class="span3 hero-unit-small blue2">
+	      <div class="span3 hero-unit-small blue1">
 	        <h2><a href="<?php echo get_category_link(20); ?>"><?php echo get_cat_name(20);?></a></h2>
 	        <ul><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
 	        </ul>
 	      </div>
-	      <div class="span3 hero-unit-small blue2">
+	      <div class="span3 hero-unit-small blue1">
 		<h2>Recently Written</h2>
 		<ul>
 		 <li></li>

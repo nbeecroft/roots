@@ -34,13 +34,18 @@
   <?php roots_header_after(); ?>
 
   <?php roots_wrap_before(); ?>
- <div class="sticky-wrapper">
-   <div id="masthead">
-     <div class="container">
-	  <h2>Hi, I'm Nick.</h2>
-	  <p>Please bear with me while I finish the design for this site!</p>
-     </div>
-   </div>
+  
+  <div class="sticky-wrapper">
+    
+  <?php if (is_front_page() ) { ?>
+  <div id="masthead">
+      <div class="container">
+        <h2>Hi, I'm Nick.</h2>
+        <p>Please bear with me while I finish the design for this site!</p>
+      </div>
+  </div>
+  <?php } ?>
+
 
 	
-     <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">
+  <div id="wrap" class="<?php echo WRAP_CLASSES; ?>" role="document">
