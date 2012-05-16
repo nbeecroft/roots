@@ -40,8 +40,18 @@
   <?php if (is_front_page() ) { ?>
   <div id="masthead">
       <div class="container">
-        <h2>Hi, I'm Nick.</h2>
-        <p>Please bear with me while I finish the design for this site!</p>
+        <div class="row">
+            <div class="span4 offset1">
+                <h2>Hi, I'm Nick.</h2>
+                <p>This is my personal site where I share (sometimes) useful information about my adventure on a quest for knowledge.</p>
+                <p>You can dive right in to the <a href="#articles">articles</a> I've written, checkout my <a href="/assets/Nicolas_Beecroft-Sales_Resume.pdf">resume</a>, or <a href="#">get in touch with me.</a></p>
+                <div class="alert alert-info">
+                    <button class="close" data-dismiss="alert">&times;</button>
+                    <strong>Heads up!</strong> This site is a work in progress; sorry about that.
+                </div>
+            </div>
+            
+        </div>
       </div>
   </div>
   <?php } ?>
