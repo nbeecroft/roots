@@ -122,8 +122,8 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 }
 
 #articles{
-    background-color: #17467F;
-    color: white;
+    background-color: #eee;
+    color: #1671D4;
 	text-align:center;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
