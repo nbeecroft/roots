@@ -21,27 +21,26 @@ body {/*TEMP: padding-top: 60px;*/ }
 body.top-navbar { /*padding-top: 60px;*/ }
 body.admin-bar .navbar-fixed-top {top: 28px; }
 
+.navbar .brand {
+color:#DEDCC3;
+}
+
 #profile-pic {
 	margin-top:5px;
 	border-radius:5px;
     height:40px;
 }
 
-.banner-text{
-	color:#30A7E3;
-	text-align:center;
-	margin:20px 0 38px 0;
-}
 
 #masthead {
-	background-color: #1C3052;
+	background-color: #41434A;
 	background-repeat: no-repeat;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#1C3052));
-	background-image: -webkit-linear-gradient(#222222, #1C3052);
-	background-image: -moz-linear-gradient(#222222, #1C3052);
-	background-image: -o-linear-gradient(top, #222222, #1C3052);
-	background-image: -khtml-gradient(linear, left top, left bottom, from(#222222), to(#1C3052));
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#1C3052', GradientType=0);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#41434A));
+	background-image: -webkit-linear-gradient(#222222, #41434A);
+	background-image: -moz-linear-gradient(#222222, #41434A);
+	background-image: -o-linear-gradient(top, #222222, #41434A);
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#222222), to(#41434A));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#41434A', GradientType=0);
 	min-height:150px;
     margin:50px 0px 0px 0px;
 	color:#fff;
@@ -58,6 +57,9 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 
 #content { }
 
+.center-text{
+    text-align:center;
+}
 
 
 /* =============================================================================
@@ -91,12 +93,12 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 }
 .hero-unit-custom {
 	margin-bottom: 30px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-    box-shadow: 0px 0px 7px 0px #666;
-    -moz-box-shadow:    0px 0px 7px 0px #666;
-    -webkit-box-shadow: 0px 0px 7px 0px #666;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+    box-shadow: 0px 3px 7px 0px #666;
+    -moz-box-shadow:    0px 3px 7px 0px #666;
+    -webkit-box-shadow: 0px 3px 7px 0px #666;
 }
 
 .hero-unit-inside{
@@ -113,6 +115,13 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 .blue3{
 	background-color:#44ACCF;
 }
+
+.seafoam{
+    background-color:#9EB2A1;
+}
+.blue-grey{
+    background-color:#6B8A8B;
+}
 .red1 {
 	background-color: #EE3E64;
 }
@@ -122,15 +131,17 @@ body.admin-bar .navbar-fixed-top {top: 28px; }
 }
 
 #articles{
-    background-color: #eee;
-    color: #1671D4;
+    /*background-color: #eee;*/
+    color: #41434A;
 	text-align:center;
-	-webkit-border-radius: 3px;
+    margin-bottom:20px;
+    font-size:1.5em;
+	/*-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
     box-shadow: 0px 0px 7px 0px #666;
     -moz-box-shadow:    0px 0px 7px 0px #666;
-    -webkit-box-shadow: 0px 0px 7px 0px #666;
+    -webkit-box-shadow: 0px 0px 7px 0px #666;*/
     
 }
 /* =============================================================================

@@ -6,7 +6,7 @@
         
 	    <section>
 	    <div class="category-list row">
-	      <div class="span4 hero-unit-custom blue1">
+	      <div class="span4 hero-unit-custom blue-grey">
             <div class="hero-unit-inside">
                 <h2>Projects</h2>
                 <ul>
@@ -16,7 +16,7 @@
                 </ul>
             </div>
 	      </div>
-	      <div class="span4 hero-unit-custom blue1">
+	      <div class="span4 hero-unit-custom blue-grey">
             <div class="hero-unit-inside">
                 <h2>Connect with Me</h2>
                 <ul>
@@ -26,7 +26,7 @@
                 </ul>
             </div>
 	      </div>
-	      <div class="span4 hero-unit-custom blue1">
+	      <div class="span4 hero-unit-custom blue-grey">
             <div class="hero-unit-inside">
 		        <h2>Latest Tweets</h2>
             </div>
@@ -34,25 +34,25 @@
 	    </div>
         </section>
         <section>
-	    <div id="articles" class="well">
-	      <h2>Articles</h2>
+	    <div id="articles">
+	      <h1>Articles</h1>
 	    </div>
 	    <div class="category-list row">
-	      <div class="span3  hero-unit-custom blue2">
+	      <div class="span3  hero-unit-custom seafoam">
 		    <div class="hero-unit-inside">
                 <h2><a href="<?php echo get_category_link(18); ?>"><?php echo get_cat_name(18);?></a></h2>
                 <ul><?php echo my_list_categories(array('child_of'=>18,'hide_empty'=>0,'title_li'=>''));?>
                 </ul>
             </div>    
 	      </div>
-	      <div class="span3 hero-unit-custom blue2">
+	      <div class="span3 hero-unit-custom seafoam">
 	        <div class="hero-unit-inside">
                 <h2><a href="<?php echo get_category_link(20); ?>"><?php echo get_cat_name(20);?></a></h2>
                 <ul><?php echo my_list_categories(array('child_of'=>20,'hide_empty'=>0,'title_li'=>''));?>
                 </ul>
             </div>    
 	      </div> 
-          <div class="span6 hero-unit-custom blue2">
+          <div class="span6 hero-unit-custom seafoam">
             <div class="hero-unit-inside">
                 <h2>Recently Written</h2>
                 <ul>

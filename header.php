@@ -41,7 +41,7 @@
   <div id="masthead">
       <div class="container">
         <div class="row">
-            <div class="span4 offset1">
+            <div class="span4 offset4 center-text">
                 <h2>Hi, I'm Nick.</h2>
                 <p>This is my personal site where I share (sometimes) useful information about my adventures on a quest for knowledge.</p>
                 <p>You can dive right in to the <a href="#articles">articles</a> I've written, checkout my <a href="/assets/Nicolas_Beecroft-Sales_Resume.pdf">resume</a>, or <a href="#">get in touch with me.</a></p>
@@ -50,10 +50,10 @@
                     <strong>Heads up!</strong> This site is a work in progress; sorry about that.
                 </div>
             </div>
-            <div class="span4 offset3">
+            <!--<div class="span4 offset3">
                 <p>Until I finish what's supposed to go here, here's a gecko!</p>
                 <img id="gecko" src="img/gecko.jpg" alt="gecko">
-            </div>    
+            </div> -->  
         </div>
       </div>
   </div>
