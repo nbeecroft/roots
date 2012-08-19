@@ -37,7 +37,7 @@
   
   <div class="sticky-wrapper">
     
-  <?php if (is_front_page() ) { ?>
+ <!-- <?php if (is_front_page() ) { ?>
   <div id="masthead">
       <div class="container">
         <div class="row">
@@ -49,15 +49,11 @@
                     <button class="close" data-dismiss="alert">&times;</button>
                     <strong>Heads up!</strong> This site is a work in progress; sorry about that.
                 </div>
-            </div>
-            <!--<div class="span4 offset3">
-                <p>Until I finish what's supposed to go here, here's a gecko!</p>
-                <img id="gecko" src="img/gecko.jpg" alt="gecko">
-            </div> -->  
+            </div> 
         </div>
       </div>
   </div>
-  <?php } ?>
+  <?php } ?> -->
 
 
 	
