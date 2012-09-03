@@ -14,19 +14,19 @@
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
-  <script language="javascript" src="/tweet/jquery.tweet.js" type="text/javascript"></script>
+  <script language="javascript" src="/js/tweet/jquery.tweet.js" type="text/javascript"></script>
   
   <script type='text/javascript'>
     jQuery(function($){
         $(".tweet").tweet({
-            join_text: "auto",
             username: "nbeecroft",
-            avatar_size: 32,
+            avatar_size: 48,
             count: 3,
             loading_text: "loading tweets..."
         });
     });
   </script>
+  <link href="/js/tweet/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
   <?php roots_head(); ?>
   <?php wp_head(); ?>
 

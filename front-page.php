@@ -29,7 +29,7 @@
 	      <div class="span4 hero-unit-custom brightblue1">
             <div class="hero-unit-inside">
 		        <h2>Latest Tweets</h2>
-		        <div class="tweet">
+		        <div class="tweet query">
 		      
 		        </div>
             </div>

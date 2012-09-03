@@ -37,3 +37,8 @@
 			.tweet_list .tweet_avatar img {
 				vertical-align: middle;
 			}
+.tweet li {
+	font-size:1em !important;
+	color:inherit !important;
+	text-align:center;
+}
