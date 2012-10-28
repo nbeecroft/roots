@@ -38,7 +38,7 @@
         </section>
         <section>
 	    <div id="articles">
-	      <h1>Articles</h1>
+	      <h1>Posts</h1>
 	    </div>
 	    <div class="category-list row">
 	      <div class="span3  hero-unit-custom brightblue2">

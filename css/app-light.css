@@ -3,12 +3,11 @@
    ========================================================================== */
 
 body {
-	background-color:#2a2727;
+	background-color:#f6fbff;
     /*#F2F1E9*/
  }
 
 #wrap{
-    background-color:#2a2727;
 }
 
 /* =============================================================================
@@ -98,9 +97,9 @@ color:#DEDCC3;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-    box-shadow:0px 4px 27px 0px #6B8A8B;
-    -moz-box-shadow:   0px 4px 27px 0px #6B8A8B;
-    -webkit-box-shadow: 0px 4px 27px 0px #6B8A8B;
+    box-shadow: 0px 3px 7px 0px #666;
+    -moz-box-shadow:    0px 3px 7px 0px #666;
+    -webkit-box-shadow: 0px 3px 7px 0px #666;
 }
 
 .hero-unit-inside{
@@ -112,8 +111,6 @@ color:#DEDCC3;
 
 .blue2{
 	background-color:#1671D4;
-    background-color: lightgreen;
-    
 }
 
 .blue3{
@@ -145,7 +142,7 @@ color:#DEDCC3;
 
 #articles{
     /*background-color: #eee;*/
-    color: #6B8A8B;
+    color: #00314D;
 	text-align:center;
     margin-bottom:20px;
     font-size:1.5em;
