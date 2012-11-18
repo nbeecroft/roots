@@ -63,7 +63,11 @@ color:#DEDCC3;
 .center-text{
     text-align:center;
 }
-
+#author-info{
+    float: right;
+    text-align: right;
+    padding-top: 75px;
+}
 
 /* =============================================================================
    Primary Content
