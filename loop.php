@@ -14,13 +14,13 @@
     <?php roots_post_inside_before(); ?>
       <header>
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        <?php roots_entry_meta(); ?>
       </header>
       <div class="entry-content">
         <?php if (is_archive() || is_search()) { ?>
           <?php the_excerpt(); ?>
         <?php } else { ?>
           <?php the_content(); ?>
+          <?php roots_entry_meta(); ?>
         <?php } ?>
       </div>
       <footer>
