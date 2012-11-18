@@ -5,10 +5,10 @@
     <?php roots_post_inside_before(); ?>
       <header>
         <h1 class="entry-title"><?php the_title(); ?></h1>
-        <?php roots_entry_meta(); ?>
       </header>
       <div class="entry-content">
         <?php the_content(); ?>
+        <?php roots_entry_meta(); ?>
       </div>
       <footer>
         <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
