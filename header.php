@@ -21,7 +21,7 @@
         $(".tweet").tweet({
             username: "nbeecroft",
             avatar_size: 48,
-            count: 3,
+            count: 2,
             loading_text: "loading tweets..."
         });
     });
