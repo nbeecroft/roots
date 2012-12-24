@@ -167,8 +167,14 @@ color:#DEDCC3;
    ========================================================================== */
 
 #sidebar { }
-
-
+.sidebar-background {
+	background-color:inherit;
+}
+.widget_categories {
+	float:right;
+	padding-top:20px;
+	text-align:right;
+}
 
 /* =============================================================================
    Posts
