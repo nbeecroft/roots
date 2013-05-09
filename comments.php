@@ -85,8 +85,6 @@
           <input type="text" class="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?>>
           <label for="email"><?php _e('Email (will not be published)', 'roots'); if ($req) _e(' (required)', 'roots'); ?></label>
           <input type="email" class="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?>>
-          <label for="url"><?php _e('Website', 'roots'); ?></label>
-          <input type="url" class="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3">
         <?php } ?>
         <label for="comment"><?php _e('Comment', 'roots'); ?></label>
         <textarea name="comment" id="comment" class="input-xlarge" tabindex="4"></textarea>
